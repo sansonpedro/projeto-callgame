@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  background-color: #3d0076;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.2;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.subtext {
+  font-size: 1em;
+  margin-top: 20px;
+  color: #e0e0e0;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.download {
+  background-color: #b400ff;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.open {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.controller {
+  position: absolute;
+  width: 60px;
+  opacity: 0.3;
+}
+
+.top-left {
+  top: 20px;
+  left: 20px;
+}
+
+.bottom-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+footer {
+  background-color: #2a0052;
+  padding: 15px 0;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
